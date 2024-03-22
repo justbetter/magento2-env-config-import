@@ -3,7 +3,6 @@
     <module name="JustBetter_EnvConfigImport" setup_version="1.0.0">
         <sequence>
             <module name="Magento_Deploy" />
-            <module name="JustBetter_DotEnv" />
         </sequence>
     </module>
 </config>
