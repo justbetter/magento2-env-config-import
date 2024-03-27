@@ -1,0 +1,22 @@
+{
+    "name": "justbetter/magento2-env-config-import",
+    "description": "Magento 2 Environment Config Import",
+    "type": "magento2-module",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.2",
+        "magento/framework": "*"
+    },
+    "authors": [
+        {
+            "name": "Robin Mulder",
+            "email": "robin@justbetter.nl",
+            "homepage": "https://justbetter.nl",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "JustBetter\\EnvConfigImport\\\\": "" },
+        "files": [ "registration.php" ]
+    }
+}
