@@ -2,10 +2,10 @@
 
 namespace JustBetter\EnvConfigImport\Plugin\Config\Model\Config;
 
-use JustBetter\EnvConfigImport\Plugin\Base;
+use JustBetter\EnvConfigImport\Plugin\BasePlugin;
 use Magento\Config\Model\Config\Importer;
 
-class ImporterPlugin  extends Base
+class ImporterPlugin extends BasePlugin
 {
     public function beforeImport(Importer $subject, array $data) : array
     {
