@@ -23,7 +23,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "JustBetter\\EnvConfigImport\\\\": "" },
+        "psr-4": { "JustBetter\\EnvConfigImport\\": "" },
         "files": [ "registration.php" ]
     },
     "require-dev": {
