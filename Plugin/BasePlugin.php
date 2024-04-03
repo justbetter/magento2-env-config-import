@@ -4,7 +4,7 @@ namespace JustBetter\EnvConfigImport\Plugin;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 
-class Base
+class BasePlugin
 {
     public function getConfigFromEnv(array $data): array
     {
