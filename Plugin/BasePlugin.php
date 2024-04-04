@@ -10,7 +10,7 @@ class BasePlugin
     {
         foreach ($_ENV as $path => $value) {
             if (str_starts_with($path, 'CONFIG')) {
-                $configPath = explode('__', trim(strtolower($path), 'config__'));
+                $configPath = explode('__', str_replace('config__','',strtolower($path)));
 
                 $newPath = [];
                 $currentLevel =& $newPath;
