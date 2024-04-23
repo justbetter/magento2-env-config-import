@@ -6,4 +6,5 @@
     <type name="Magento\Deploy\Model\DeploymentConfig\DataCollector">
         <plugin name="JustBetter_EnvConfigImport::DataCollectorPlugin" type="JustBetter\EnvConfigImport\Plugin\Deploy\Model\DeploymentConfig\DataCollectorPlugin" />
     </type>
+    <preference for="Magento\Config\Model\Config\Importer\SaveProcessor" type="JustBetter\EnvConfigImport\Model\Config\Importer\CustomSaveProcessor" />
 </config>
